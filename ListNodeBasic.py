@@ -48,11 +48,15 @@ class LinkedList:
       curr = curr.next
     print()
 
+'''
+This is a change
+'''
 
-x = LinkedList()
-x.insertEnd("1")
-x.insertEnd("2")
-x.insertEnd("3")
-x.print()
-x.remove(1)
-x.print()
+if __name__ == "__main__":
+  x = LinkedList()
+  x.insertEnd("1")
+  x.insertEnd("2")
+  x.insertEnd("3")
+  x.print()
+  x.remove(1)
+  x.print()
